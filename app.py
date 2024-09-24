@@ -45,7 +45,9 @@ with gr.Blocks() as app:
         add_button.click(fn=add_images,
                          inputs=new_images_input,
                          outputs=add_output)
-
+                         
+        gr.HTML("""<h4 align = "center">"Lookalike" AI-based image search application by Stepan Gerasimov</h4>""")
+        gr.HTML("""<div align = "center"><a href = "https://github.com/ninjagraph2/lookalike">GitHub</a>ㅤㅤㅤㅤ<a href = "https://drive.google.com/file/d/16TNOlIdlVJRI7WDkkhcol1CI4rDZiCHA/view?usp=sharing">Google Colaboratory</a>ㅤㅤㅤㅤ<a href= "https://t.me/ninjaaaaa999">Telegram</a></div>""")
 # Очистка временных данных после завершения сессии
 temp_dir = create_temp_storage()
 app.launch()
