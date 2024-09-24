@@ -1,14 +1,3 @@
----
-title: Lookalike
-emoji: 🖼️
-colorFrom: "#FF5733"
-colorTo: "#C70039"
-sdk: gradio
-sdk_version: "2.3.0"
-app_file: app.py
-pinned: false
----
-
 <p align="center">
   <a href="" rel="noopener">
  <img width=100px height=100px src="./resources/ico.svg" alt="Lookalike"></a>
