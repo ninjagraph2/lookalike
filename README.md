@@ -11,7 +11,7 @@
 
 </div>
 
-<p align="center"> Проект посвящён исследованию методов обнаружения похожих изображений, а также разработке и тестированию приложения, основанного на машинном обучении.
+<p align="center"> Проект посвящён исследованию методов обнаружения похожих изображений, а также разработке приложения, основанного на CNN.
     <br> 
 </p>
 
@@ -80,10 +80,18 @@ End with an example of getting some data out of the system or using it for a lit
 - [VK Cloud](https://cloud.vk.com/) - Virtual Machine
 - [Docker](https://www.docker.com/) - Container
 - [Gradio](https://www.gradio.app/) - UI
-- [YoloV8](https://github.com/ultralytics/ultralytics) - CV model
+- [Mobilenet v3 small](https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v3_small.html) - Torchvision model
 
 ## 👨‍💻 Библиотеки <a name = "technologies"></a>
 
+- os
+- numpy
+- torch
+- torchvision.transforms
+- gradio
+- pickle
+- tempfile
+- shutil
 
 ## ✍️ Автор <a name = "author"></a>
 
