@@ -75,6 +75,19 @@ gradio app.py
 - [HuggingFaceSpace](https://huggingface.co/spaces/Stepan3745/lookalike-search) - Deployment
 - [Gradio](https://www.gradio.app/) - UI
 - [Mobilenet v3 small](https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v3_small.html) - Torchvision model
+- [KD-Trees](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html) - Nearest Neighbours Method
+
+Схема работы приложения:
+1. Загрузка множества изображений в разделе Add To Index;
+2. Извлечение из них фич с помощью CNN;
+3. Загрузка в общий .pkl поисковой индекс;
+4. На вход приложению в разделе Find Similar Images подаётся одно изображение;
+5. Извлечение из него фич с помощью CNN;
+6. Чтение pkl файла;
+7. Сравнение фич индекса с фичами входного изображения методом KD-Trees;
+8. Вывод необходимого кол-ва "соседей" для входного изображение.
+
+По завершении работы приложения, очищается Temporary Storage с изображениями, а также очищается Search Index
 
 ## 👨‍💻 Библиотеки <a name = "technologies"></a>
 
