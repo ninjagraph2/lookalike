@@ -75,7 +75,7 @@ gradio app.py
 - [HuggingFaceSpace](https://huggingface.co/spaces/Stepan3745/lookalike-search) - Deployment
 - [Gradio](https://www.gradio.app/) - UI
 - [Mobilenet v3 small](https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v3_small.html) - Torchvision model
-- [KD-Trees](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html) - Nearest Neighbours Method
+- [Scikit-learn KD-Trees](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html) - Nearest Neighbours Method
 
 Схема работы приложения:
 1. Загрузка множества изображений в разделе Add To Index;
